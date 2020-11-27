@@ -1,0 +1,1 @@
+(fn [arg] (fn [pow] (apply * (repeat arg pow))))

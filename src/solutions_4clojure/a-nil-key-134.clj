@@ -1,0 +1,1 @@
+(fn [key map] (and (contains? map key) (= nil (key map))))

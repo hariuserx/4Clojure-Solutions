@@ -1,0 +1,1 @@
+#(sort (fn [a b] (compare (clojure.string/lower-case a) (clojure.string/lower-case b))) (filter (complement empty?) (clojure.string/split %  #"(\s+|\.|\,|\!)")))

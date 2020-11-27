@@ -1,0 +1,1 @@
+#(map read-string (filter not-empty (-> (* %1 %2) str (clojure.string/split #""))))
